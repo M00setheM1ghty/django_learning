@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-e4p^zcm^m(emi!usir(6$64i=(o66*x32ddjh70-r8(k4zql(=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['8000-m00sethem1g-djangolearn-2wljzanp7sa.ws-eu107.gitpod.io',
-                '.herokuapp.com']
+ALLOWED_HOSTS = ['8000-m00sethem1g-djangolearn-2wljzanp7sa.ws-eu107.gitpod.io','.herokuapp.com', 'django-learning-5170ad20f6ab.herokuapp.com']
 
 
 # Application definition
