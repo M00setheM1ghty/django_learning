@@ -1,0 +1,6 @@
+-- create project
+django-admin startproject project_name directory_name
+-- create app 'hello_world
+python3 manage.py startapp hello_world
+
+--always add new apps to INSTALLED_APPS
