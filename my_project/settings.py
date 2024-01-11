@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hello_world',
+    'blog',
     'about',
     'default',
 ]
@@ -89,10 +89,14 @@ WSGI_APPLICATION = 'my_project.wsgi.application'
     #}
 #}
 
-#connect to db via database_url
+# database_url
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.codeanyapp.com",
+    "https://*.herokuapp.com"
+]
 
 
 # Password validation
